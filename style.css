@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, Trebuchet Ms;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+#logo {
+     margin: 0px;
+     padding: 8px;
+     font-family: "Fedoka One", Ariel;
+     width: 15%;
+    }
+ul {
+    margin: 0px;
+}
+body > header { 
+    background-color: blueviolet;
+    color: whitesmoke;
+    height: 12vh;
+    align-items: center;
+}
+
+#main-header {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+body > header > nav > ul > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 15%;
+}
+body > main article{
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+form {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+body > footer {
+    background-color: blueviolet;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+#footer-ul >div > li {
+    margin-left: 12px;
+}
+#footer-ul > div > li > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 25%;
+}
+

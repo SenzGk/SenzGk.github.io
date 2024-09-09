@@ -1,82 +1,93 @@
-body{
-    font-family: Arial, Helvetica, Trebuchet Ms;
+body {
     margin: 0px;
-    font-size: 1.5vw;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    
 }
 #logo {
-     margin: 0px;
-     padding: 8px;
-     font-family: "Fedoka One", Ariel;
-     width: 15%;
-    }
-ul {
-    margin: 0px;
+    color: rgb(122, 0, 153);
 }
-body > header { 
-    background-color: blueviolet;
-    color: whitesmoke;
-    height: 12vh;
-    align-items: center;
+header {
+    padding: 16px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    grid-area: header;
+    height: 150px;
 }
-
-#main-header {
-    display: flex;
-    justify-content: center;
+#header-main 
+#menu {
+    padding: 5px;
+    background-color: black;
+    width: 200px;
 }
 
 #nav-ul {
     display: flex;
+    width: 800px;
+    align-items: center;
 }
-
 #nav-ul > li {
     padding: 8px;
-    margin: 16px;
+    margin: 0px;
 }
 
-body > header > nav > ul {
+nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-decoration: none;
+}
+#nav-ul {
     list-style: none;
     text-decoration: none;
 }
-body > header > nav > ul > li > a {
-    color: whitesmoke;
+#nav-ul > li > a {
+    color: white;
     text-decoration: none;
-    padding: 12px;
-    border: 1px solid whitesmoke;
-    border-radius: 15%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    margin: 5px 0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
-body > main article{
-    width: 70%;
-    margin: auto;
+#nav-ul > li > a:hover {
+    background-color: rgb(122, 0, 153);
 }
-
-#main-content {
-    display: flex;
-    justify-content: space-around;
-}
-form {
+main {
+    padding: 16px;
+    grid-area: main;
+    color: white;
     text-align: center;
 }
 h2 {
+    padding: 16px;
+}
+form {
+    padding: 16px;
+    grid-area: main;
+    color: white;
+}
+footer {
+    padding: 16px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
     text-align: center;
+    grid-area: footer;
 }
-body > footer {
-    background-color: blueviolet;
-    display: flex;
+#logo-footer {
+    color: rgb(122, 0, 153);
 }
-
-#footer-ul {
-    display: flex;
-    list-style: none;
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 6fr;
 }
-#footer-ul >div > li {
-    margin-left: 12px;
-}
-#footer-ul > div > li > a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-img {
-    border-radius: 25%;
-}
-

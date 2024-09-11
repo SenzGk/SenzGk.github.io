@@ -71,6 +71,12 @@ form {
     grid-area: main;
     color: white;
 }
+#anime-content {
+    padding: 16px;
+    grid-area: main;
+    color: white;
+    text-align: center;
+}
 footer {
     padding: 16px;
     background-color: black;

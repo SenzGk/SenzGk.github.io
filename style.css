@@ -71,6 +71,10 @@ form {
     grid-area: main;
     color: white;
 }
+img {
+    text-align: center;
+    align-items: center;
+}
 #anime-content {
     padding: 16px;
     grid-area: main;

@@ -80,6 +80,9 @@ img {
     text-align: center;
     align-items: center;
 }
+#author-pic {
+    border-radius: 25%;
+}
 
 footer {
     padding: 16px;

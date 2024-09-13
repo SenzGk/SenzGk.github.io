@@ -83,6 +83,10 @@ img {
 #author-pic {
     border-radius: 25%;
 }
+#linkedin {
+    text-decoration: none;
+    color: rgb(122, 0, 153);
+}
 
 footer {
     padding: 16px;
